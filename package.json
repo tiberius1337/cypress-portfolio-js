@@ -1,0 +1,23 @@
+{
+  "name": "cypress-portfolio",
+  "version": "1.0.0",
+  "description": "E2E automated tests in Cypress framework using JavaScript language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiberius1337/cypress-portfolio-js.git"
+  },
+  "author": "Tibor Alekosz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiberius1337/cypress-portfolio-js/issues"
+  },
+  "homepage": "https://github.com/tiberius1337/cypress-portfolio-js#readme",
+  "devDependencies": {
+    "cypress": "^14.2.1",
+    "latest": "^0.2.0"
+  }
+}
