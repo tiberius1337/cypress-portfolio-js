@@ -1,9 +1,21 @@
-const { defineConfig } = require("cypress");
+import { defineConfig } from "cypress";
 
-module.exports = defineConfig({
+export default defineConfig({
+  viewportWidth: 1920,
+  viewportHeight: 1080,
+
+  chromeWebSecurity: false,
+  experimentalModifyObstructiveThirdPartyCode: true,
+
+  pageLoadTimeout: 60000,
+  requestTimeout: 10000,
+  defaultCommandTimeout: 10000,
+
   e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
+    testIsolation: false
   },
+
+  env: {
+    "hideXHR": true
+  }
 });
